@@ -1,4 +1,9 @@
+.main {
+    
+}
+
 .header {
     width: 100vw;
     justify-content: center;
+    text-align: center;
 }
