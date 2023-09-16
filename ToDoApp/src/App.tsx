@@ -1,5 +1,4 @@
 import './App.css'
-import { useState } from 'react'
 
 function App() {
 
@@ -10,8 +9,11 @@ function App() {
             Basic To Do App
           </div>
 
-          <div className='container'>
-            <input type="text" className='addToDo' value="Type your To-Do here"/> 
+          <div>
+            <input type="text" className='add-to-do' placeholder="Add Task"/> <div className='button-to-do'> ADD! </div> 
+              <div className='container'>
+                
+              </div>
           </div>
         </div>
     </>

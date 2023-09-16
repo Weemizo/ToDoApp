@@ -1,9 +1,37 @@
 .main {
-    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(58, 56, 56);
+    color: rgb(255, 248, 231);
 }
 
 .header {
     width: 100vw;
     justify-content: center;
     text-align: center;
+    font-size: 5rem;
+}
+
+.add-to-do {
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.button-to-do {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: auto;
+    display: inline-block;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 0.5rem;
 }
