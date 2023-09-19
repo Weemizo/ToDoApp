@@ -1,4 +1,5 @@
 import './App.css'
+import TodoApp from './components/AddingFunc'
 
 function App() {
 
@@ -10,9 +11,8 @@ function App() {
           </div>
 
           <div>
-            <input type="text" className='add-to-do' placeholder="Add Task"/> <div className='button-to-do'> ADD! </div> 
               <div className='container'>
-                
+                <TodoApp/>
               </div>
           </div>
         </div>
